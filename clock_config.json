@@ -1,0 +1,11 @@
+{
+    "input_dir": "H:/YOLOv8/data/my_images",
+    "output_dir": "H:/YOLOv8/result/clock_results",
+    "result_file": "H:/YOLOv8/result/clock_times.json",
+    "model_path": "yolov8n.pt",
+    "supported_formats": [".jpg", ".jpeg", ".png", ".bmp"],
+    "confidence_threshold": 0.25,
+    "save_annotated_images": true,
+    "tesseract_path": "C:/Program Files/Tesseract-OCR/tesseract.exe",
+    "clock_class_id": 74
+}

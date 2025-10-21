@@ -1,0 +1,7 @@
+{
+  "src": "H:/YOLOv8/data/my_images",
+  "dst": "H:/YOLOv8/result/yolo_out",
+  "weights": "H:/YOLOv8/yolov8n.pt",
+  "conf": 0.25,
+  "done": "H:/YOLOv8/done.log"
+}

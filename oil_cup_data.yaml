@@ -1,0 +1,15 @@
+# oil_cup_data.yaml
+
+# 数据集根目录 (从运行脚本的位置计算相对路径)
+path: datasets
+
+# 训练集、验证集和测试集图像路径
+train: images/train
+val: images/val
+test: images/test
+
+# 类别数量
+nc: 2 # 我们定义了 2 个类别：0 (oil_cup) 和 1 (oil_level)
+
+# 类别名称列表 (必须与您在 LabelImg 中使用的名称顺序一致)
+names: ['oil_cup', 'oil_level']

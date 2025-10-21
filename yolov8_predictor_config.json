@@ -1,0 +1,16 @@
+{
+    "input_dir": "H:/YOLOv8/data/my_images",
+    "output_dir": "H:/YOLOv8/result",
+    "record_file": "H:/YOLOv8/result/processed_files.json",
+    "model_path": "H:/YOLOv8/yolov8n.pt",
+    "supported_formats": [".jpg", ".jpeg", ".png", ".bmp", ".mp4", ".avi", ".mov", ".mkv"],
+    "confidence_threshold": 0.25,
+    "save": true,
+    "save_txt": true,
+    "save_conf": true,
+    "exist_ok": true,
+    "use_chinese_labels": true,
+    "font_path": "simhei.ttf",
+    "font_size": 30,
+    "label_position": "top"
+}
